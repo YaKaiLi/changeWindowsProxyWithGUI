@@ -1,0 +1,6 @@
+git add .
+git commit -m "first commit"
+git push -u origin master
+
+git pull --rebase origin master
+#online同步到本地
