@@ -3,11 +3,6 @@ import subprocess
 import ctypes
 from tkinter import *
 
-'''
-说明（重要）：只有以前开过代理才可以使用！！！！
-            如果从来没有开过代理，有可能注册表的键不存在，会报错
-'''
-
 def get_proxy_status():
     ie_setting_reg = winreg.OpenKey(
         winreg.HKEY_CURRENT_USER,
